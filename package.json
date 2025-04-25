@@ -3,16 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
-    // this runs *before* npm installs dependencies:
     "preinstall": "npm config set legacy-peer-deps true",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-
   "dependencies": {
     "dotenv": "^16.5.0",
     "leaflet": "^1.9.4",
@@ -24,7 +21,6 @@
     "react-router-dom": "^7.5.0",
     "react-toastify": "^11.0.5"
   },
-
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "@types/react": "^19.0.8",

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/Sidebar.css";
 import Contactus from "./Contactus";
 import RouteSuggestionsPopup from "./RouteSuggestionsPopup";
+import CityMap from "./CityMap";
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL;
 const NEW_INTIGRATION_APP = import.meta.env.VITE_NEWINTIGRATIONAPP;
@@ -32,7 +33,7 @@ const Sidebar = ({
   const [tripSuggestions, setTripSuggestions] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [showRouteSuggestions, setShowRouteSuggestions] = useState(false);
-
+  const [showCityMapModal, setShowCityMapModal] = useState(false)
   const navigate = useNavigate();
 
   const fetchSanitized = async (url) => {
@@ -94,7 +95,7 @@ const Sidebar = ({
 
 
       const handleTransitRoute = () => {
-        navigate("/city-map");
+        setShowCityMapModal(true);
       };
 
   const handleRouteSearch = () => {
@@ -165,6 +166,7 @@ const Sidebar = ({
        <button type="button" onClick={handleTransitRoute}>
         Transit Route
        </button> 
+       
         <button onClick={redirectToAboutUs}>About Us</button>
              
           </div>
@@ -175,6 +177,10 @@ const Sidebar = ({
               Contact Us
             </button>
             {showModal && <Contactus onClose={() => setShowModal(false)} />}
+            {showCityMapModal && (
+          <CityMap onClose={() => setShowCityMapModal(false)} />
+        )}
+       
           </div>
         </div>
       </div>

@@ -474,8 +474,9 @@ const MapComponent = ({
                       ? new Date(vehicle.estimated_arrival).toLocaleTimeString()
                       : "N/A"}
                   </p> */}
-                  <p>
-                  <strong>Next Stop:</strong> {vehicle.next_stop?.stop_name || 'N/A'}<br />
+                   <p>
+                    <strong>Next Stop:</strong> {vehicle.next_stop?.stop_name || "N/A"}
+                  </p>
                   <p>
                     <strong>Distance:</strong>{" "}
                     {vehicle.distance_m

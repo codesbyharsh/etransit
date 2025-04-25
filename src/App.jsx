@@ -8,6 +8,10 @@ import RouteSearchPopup from "./Components/RouteSearchPopup";
 import "./App.css";
 import CityMap from "./Components/CityMap"
 
+
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
+
+
 function MainContent({
   showSidebar,
   setShowSidebar,
@@ -140,7 +144,7 @@ function App() {
   
   // Data fetching effects
   useEffect(() => {
-    fetch("http://localhost:8080/stops.json")
+    fetch(`${API_BASE}/stops.json`)
       .then(res => res.text())
       .then(text => {
         const cleaned = text.replace(/\bNaN\b/g, "null");
@@ -150,7 +154,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:8080/routes.json")
+    fetch(`${API_BASE}/routes.json`)
       .then(res => res.text())
       .then(text => {
         const cleaned = text.replace(/\bNaN\b/g, "null");
@@ -160,7 +164,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:8080/trips.json")
+    fetch(`${API_BASE}/trips.json`)
       .then(res => res.text())
       .then(text => {
         const cleaned = text.replace(/\bNaN\b/g, "null");
@@ -170,7 +174,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:8080/shapes.json")
+    fetch(`${API_BASE}/shapes.json`)
       .then(res => res.text())
       .then(text => {
         const cleaned = text.replace(/\bNaN\b/g, "null");

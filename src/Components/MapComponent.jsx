@@ -466,7 +466,7 @@ const MapComponent = ({
                   </p>
                   <p>
                     <strong>Speed:</strong>{" "}
-                    {pos.speed ? pos.speed.toFixed(1) + " m/s" : "N/A"}
+                    {pos.speed ? pos.speed.toFixed(1) + " km/s" : "N/A"}
                   </p>
                   {/* <p>
                     <strong>Estimated Arrival:</strong>{" "}

@@ -4,11 +4,9 @@
   "version": "0.0.0",
   "type": "module",
 
-  "installConfig": {
-    "legacy-peer-deps": true
-  },
-
   "scripts": {
+    // this runs *before* npm installs dependencies:
+    "preinstall": "npm config set legacy-peer-deps true",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

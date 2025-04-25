@@ -1,0 +1,185 @@
+/* 
+  Popup overlay that covers the entire viewport.
+  Similar to the contactus-modal-wrapper reference.
+*/
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1100;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Keyframe animation for fading-in the popup */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Popup content container styling */
+.popup-content {
+  position: relative;
+  z-index: 1200;
+  background: rgba(255, 255, 255, 0.98);
+  width: 90%;
+  max-width: 800px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.4s ease-out;
+}
+
+/* Slide in animation for the popup content */
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Close button in the popup header */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.close-btn:hover {
+  color: #FBBF24;
+}
+
+/* Header of the popup (can include title or refresh section) */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Refresh section styling */
+.refresh-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.refresh-btn {
+  background-color: #FBBF24;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.refresh-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.refresh-btn:hover:not(:disabled) {
+  background-color: #D97706;
+}
+
+/* Last updated info styling */
+.last-updated {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Popup title styling */
+.popup-content h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Filter buttons container */
+.filter-buttons {
+  text-align: center;
+  margin: 1rem 0;
+}
+.filter-buttons button {
+  background: #FBBF24;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  margin: 0 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.filter-buttons button:hover {
+  transform: scale(1.05);
+}
+
+/* Trip list container */
+.trip-list {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 1rem;
+  padding-right: 10px; /* Allow space for scrollbar */
+}
+
+/* Styling for each trip item */
+.trip-item {
+  background: #f2f2f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+/* Active trips styling: default green background */
+.trip-item.active {
+  background: #50c054;  /* Green */
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Active trips hover effect: changes background to yellow */
+.trip-item.active:hover {
+  background: #208108;  /* Yellow */
+  cursor: pointer;
+}
+
+/* Inactive trips styling */
+.trip-item.inactive {
+  background: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Ensure inactive trips do not change on hover */
+.trip-item.inactive:hover {
+  background: #ddd;
+  border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .popup-content {
+    padding: 1.5rem;
+  }
+  .trip-item {
+    padding: 0.75rem;
+  }
+}

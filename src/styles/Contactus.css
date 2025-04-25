@@ -1,0 +1,157 @@
+/* Modal wrapper positions the content relative to the viewport */
+.contactus-modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  /* Prevents internal scrolling if modal content is smaller than viewport */
+  overflow: hidden;
+}
+
+/* Fullscreen overlay with semi-transparent dark background */
+.contactus-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+/* Modal container styling */
+.contactus-modal {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  width: 90%;
+  margin: 5% auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+/* Smooth fade-in-up animation for the modal */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Exit (×) button styling in the top-right corner */
+.contactus-exit {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.contactus-exit:hover {
+  color: #FBBF24;
+}
+
+/* Title and subtitle styling for the form header */
+.contactus-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.contactus-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+/* Form layout and structure */
+.contactus-form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.contactus-form .form-group {
+  flex: 1;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus-form .form-group.full-width {
+  flex: 1 0 100%;
+  margin-right: 0;
+}
+
+.contactus-form label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Input and textarea styling */
+.contactus-form input,
+.contactus-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+  outline: none;
+}
+
+.contactus-form input:focus,
+.contactus-form textarea:focus {
+  border-color: #FBBF24;
+}
+
+/* Submit button styling with hover effects */
+.submit-btn {
+  background-color: #FBBF24;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.submit-btn:hover {
+  background-color: #D97706;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contactus-modal {
+    padding: 1.5rem 1.8rem;
+  }
+  .contactus-title {
+    font-size: 2rem;
+  }
+  .contactus-form .form-row {
+    flex-direction: column;
+  }
+  .contactus-form .form-group {
+    margin-right: 0;
+  }
+}

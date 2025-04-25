@@ -1,0 +1,422 @@
+[
+  {
+    "stop_id": "STOP01",
+    "stop_name": "Devrukh Stand",
+    "stop_lat": 17.062949,
+    "stop_lon": 73.623222
+  },
+  {
+    "stop_id": "STOP02",
+    "stop_name": "Shiwaji Chowk",
+    "stop_lat": 17.064655,
+    "stop_lon": 73.621205
+  },
+  {
+    "stop_id": "STOP03",
+    "stop_name": "Panchayat Samiti",
+    "stop_lat": 17.066806,
+    "stop_lon": 73.619289
+  },
+  {
+    "stop_id": "STOP04",
+    "stop_name": "Mahadik Stop",
+    "stop_lat": 17.06884,
+    "stop_lon": 73.617516
+  },
+  {
+    "stop_id": "STOPSG01",
+    "stop_name": "Sahyadri Nagar",
+    "stop_lat": 17.071701,
+    "stop_lon": 73.614592
+  },
+  {
+    "stop_id": "STOPSG02",
+    "stop_name": "P S Bane Int School",
+    "stop_lat": 17.074529,
+    "stop_lon": 73.611998
+  },
+  {
+    "stop_id": "STOPSG03",
+    "stop_name": "Saptilingi Stop",
+    "stop_lat": 17.075732,
+    "stop_lon": 73.610837
+  },
+  {
+    "stop_id": "STOPSG04",
+    "stop_name": "Samrudhi Nagar",
+    "stop_lat": 17.076667,
+    "stop_lon": 73.610003
+  },
+  {
+    "stop_id": "STOPSG05",
+    "stop_name": "Naidarwadi Stop",
+    "stop_lat": 17.078222,
+    "stop_lon": 73.608555
+  },
+  {
+    "stop_id": "STOPSG06",
+    "stop_name": "Sadawli Bus Stop",
+    "stop_lat": 17.081611,
+    "stop_lon": 73.605337
+  },
+  {
+    "stop_id": "STOPSG07",
+    "stop_name": "Sadwli Iti",
+    "stop_lat": 17.084799,
+    "stop_lon": 73.601122
+  },
+  {
+    "stop_id": "STOPSG08",
+    "stop_name": "Vanaz Bus Stop",
+    "stop_lat": 17.086154,
+    "stop_lon": 73.599302
+  },
+  {
+    "stop_id": "STOPSG09",
+    "stop_name": "Leisure Point",
+    "stop_lat": 17.089038,
+    "stop_lon": 73.595745
+  },
+  {
+    "stop_id": "STOPSG10",
+    "stop_name": "Midc Stop",
+    "stop_lat": 17.091012,
+    "stop_lon": 73.593033
+  },
+  {
+    "stop_id": "STOPSG11",
+    "stop_name": "Adler Bus Stop",
+    "stop_lat": 17.092612,
+    "stop_lon": 73.590099
+  },
+  {
+    "stop_id": "STOPSG12",
+    "stop_name": "Ramwadi Stop",
+    "stop_lat": 17.099227,
+    "stop_lon": 73.585313
+  },
+  {
+    "stop_id": "STOPSG13",
+    "stop_name": "Kosumb High School",
+    "stop_lat": 17.101364,
+    "stop_lon": 73.583638
+  },
+  {
+    "stop_id": "STOPSG14",
+    "stop_name": "Kosumb Bus Stop",
+    "stop_lat": 17.104842,
+    "stop_lon": 73.580873
+  },
+  {
+    "stop_id": "STOPSG15",
+    "stop_name": "Kosumb Shewarvadi",
+    "stop_lat": 17.108462,
+    "stop_lon": 73.57554
+  },
+  {
+    "stop_id": "STOPSG16",
+    "stop_name": "Karambele Puti",
+    "stop_lat": 17.11053,
+    "stop_lon": 73.574995
+  },
+  {
+    "stop_id": "STOPSG17",
+    "stop_name": "Karambele Main",
+    "stop_lat": 17.115143,
+    "stop_lon": 73.574564
+  },
+  {
+    "stop_id": "STOPSG18",
+    "stop_name": "Maildagad Stop",
+    "stop_lat": 17.117373,
+    "stop_lon": 73.572984
+  },
+  {
+    "stop_id": "STOPSG19",
+    "stop_name": "Pimpalwadi Stop",
+    "stop_lat": 17.121599,
+    "stop_lon": 73.572447
+  },
+  {
+    "stop_id": "STOPSG20",
+    "stop_name": "Burambi High School",
+    "stop_lat": 17.135477,
+    "stop_lon": 73.565465
+  },
+  {
+    "stop_id": "STOPSG21",
+    "stop_name": "Burambi Bus Stop",
+    "stop_lat": 17.13942,
+    "stop_lon": 73.563149
+  },
+  {
+    "stop_id": "STOPSG22",
+    "stop_name": "Lovle Stop",
+    "stop_lat": 17.154053,
+    "stop_lon": 73.545741
+  },
+  {
+    "stop_id": "STOPSG23",
+    "stop_name": "Navnirman Collage",
+    "stop_lat": 17.156909,
+    "stop_lon": 73.544442
+  },
+  {
+    "stop_id": "STOPSG24",
+    "stop_name": "Sangmeshwar Stand",
+    "stop_lat": 17.1692477,
+    "stop_lon": 73.5316
+  },
+  {
+    "stop_id": "STOPRT01",
+    "stop_name": "Savarkar Chowk",
+    "stop_lat": 17.06620,
+    "stop_lon": 73.61222
+  },
+  {
+    "stop_id": "STOPRT02",
+    "stop_name": "Fish Market",
+    "stop_lat": 17.06258,
+    "stop_lon": 73.62492
+  },
+  {
+    "stop_id": "STOPRT03",
+    "stop_name": "Kanji Vara",
+    "stop_lat": 17.0574,
+    "stop_lon": 73.62036
+  },
+  {
+    "stop_id": "STOPRT04",
+    "stop_name": "Nate Wadi",
+    "stop_lat": 17.05689,
+    "stop_lon": 73.61328
+  },
+  {
+    "stop_id": "STOPRT05",
+    "stop_name": "Patgav",
+    "stop_lat": 17.06429,
+    "stop_lon": 73.60342
+  },
+  {
+    "stop_id": "STOPRT06",
+    "stop_name": "Poor",
+    "stop_lat": 17.06890,
+    "stop_lon": 73.59187
+  },
+  {
+    "stop_id": "STOPRT07",
+    "stop_name": "Bhalekarwadi",
+    "stop_lat": 17.065,
+    "stop_lon": 73.62
+  },
+  {
+    "stop_id": "STOPRT08",
+    "stop_name": "Malvashi",
+    "stop_lat": 17.04539,
+    "stop_lon": 73.59253
+  },
+  {
+    "stop_id": "STOPRT09",
+    "stop_name": "Karli",
+    "stop_lat": 17.05092,
+    "stop_lon": 73.58120
+  },
+  {
+    "stop_id": "STOPRT10",
+    "stop_name": "Hanuman Stop",
+    "stop_lat": 17.05209,
+    "stop_lon": 73.57448
+  },
+  {
+    "stop_id": "STOPRT11",
+    "stop_name": "Ambav College",
+    "stop_lat": 17.05001,
+    "stop_lon": 73.56919
+  },
+  {
+    "stop_id": "STOPRT12",
+    "stop_name": "Ambav Khind",
+    "stop_lat": 17.05143,
+    "stop_lon": 73.56964
+  },
+  {
+    "stop_id": "STOPRT13",
+    "stop_name": "Ambav Sutarwadi",
+    "stop_lat": 17.065,
+    "stop_lon": 73.62
+  },
+  {
+    "stop_id": "STOPRT14",
+    "stop_name": "Aashramshala",
+    "stop_lat": 17.04790,
+    "stop_lon": 73.55008
+  },
+  {
+    "stop_id": "STOPRT15",
+    "stop_name": "Nive Budruk",
+    "stop_lat": 17.04132,
+    "stop_lon": 73.53915
+  },
+  {
+    "stop_id": "STOPRT16",
+    "stop_name": "Nive Sahan",
+    "stop_lat": 17.04592,
+    "stop_lon": 73.54024
+  },
+  {
+    "stop_id": "STOPRT17",
+    "stop_name": "Nive",
+    "stop_lat": 17.04645,
+    "stop_lon": 73.53521
+  },
+  {
+    "stop_id": "STOPRT18",
+    "stop_name": "Tulsani",
+    "stop_lat": 17.04984,
+    "stop_lon": 73.51483
+  },
+  {
+    "stop_id": "STOPRT19",
+    "stop_name": "Waigani Phata",
+    "stop_lat": 17.04705,
+    "stop_lon": 73.49943
+  },
+  {
+    "stop_id": "STOPRT20",
+    "stop_name": "Ghodvali",
+    "stop_lat": 17.05844,
+    "stop_lon": 73.49459
+  },
+  {
+    "stop_id": "STOPRT21",
+    "stop_name": "Pangari",
+    "stop_lat": 17.05964,
+    "stop_lon": 73.47485
+  },
+  {
+    "stop_id": "STOPRT22",
+    "stop_name": "Bavnadi",
+    "stop_lat": 17.06487,
+    "stop_lon": 73.45057
+  },
+  {
+    "stop_id": "STOPRT23",
+    "stop_name": "Kokaje Wathar",
+    "stop_lat": 17.065,
+    "stop_lon": 73.62
+  },
+  {
+    "stop_id": "STOPRT24",
+    "stop_name": "Nivali",
+    "stop_lat": 17.03992,
+    "stop_lon": 73.42182
+  },
+  {
+    "stop_id": "STOPRT25",
+    "stop_name": "Hat Khamba",
+    "stop_lat": 17.01463,
+    "stop_lon": 73.40588
+  },
+  {
+    "stop_id": "STOPRT26",
+    "stop_name": "Panval",
+    "stop_lat": 17.00190,
+    "stop_lon": 73.40304
+  },
+  {
+    "stop_id": "STOPRT27",
+    "stop_name": "Khedshi Highschool",
+    "stop_lat": 17.00686,
+    "stop_lon": 73.38120
+  },
+  {
+    "stop_id": "STOPRT28",
+    "stop_name": "Mahalaxmi Mandir",
+    "stop_lat": 17.00156,
+    "stop_lon": 73.37258
+  },
+  {
+    "stop_id": "STOPRT29",
+    "stop_name": "Karwachiwadi",
+    "stop_lat": 16.99946,
+    "stop_lon": 73.36703
+  },
+  {
+    "stop_id": "STOPRT30",
+    "stop_name": "Nachne",
+    "stop_lat": 16.98676,
+    "stop_lon": 73.33348
+  },
+  {
+    "stop_id": "STOPRT31",
+    "stop_name": "Kubarbav",
+    "stop_lat": 16.99718,
+    "stop_lon": 73.35563
+  },
+  {
+    "stop_id": "STOPRT32",
+    "stop_name": "Sinchanbhavan",
+    "stop_lat": 16.99485,
+    "stop_lon": 73.4701
+  },
+  {
+    "stop_id": "STOPRT33",
+    "stop_name": "TRP",
+    "stop_lat": 16.99645,
+    "stop_lon": 73.34044
+  },
+  {
+    "stop_id": "STOPRT34",
+    "stop_name": "J K Files",
+    "stop_lat": 16.99607,
+    "stop_lon": 73.33168
+  },
+  {
+    "stop_id": "STOPRT35",
+    "stop_name": "Salvi Stop",
+    "stop_lat": 16.99446,
+    "stop_lon": 73.32924
+  },
+  {
+    "stop_id": "STOPRT36",
+    "stop_name": "Shivajinagar",
+    "stop_lat": 16.99166,
+    "stop_lon": 73.32301
+  },
+  {
+    "stop_id": "STOPRT37",
+    "stop_name": "Aarogya Mandir",
+    "stop_lat": 16.99096,
+    "stop_lon": 73.31941
+  },
+  {
+    "stop_id": "STOPRT38",
+    "stop_name": "Maruti Mandir",
+    "stop_lat": 16.99025,
+    "stop_lon": 73.31164
+  },
+  {
+    "stop_id": "STOPRT39",
+    "stop_name": "Malnaka",
+    "stop_lat": 16.99073,
+    "stop_lon": 73.30707
+  },
+  {
+    "stop_id": "STOPRT40",
+    "stop_name": "Zilha Parishad",
+    "stop_lat": 16.99093,
+    "stop_lon": 73.30340
+  },
+  {
+    "stop_id": "STOPRT41",
+    "stop_name": "Jaystambh",
+    "stop_lat": 16.98985,
+    "stop_lon": 73.29739
+  },
+  {
+    "stop_id": "STOPRT42",
+    "stop_name": "Ratnagiri Bus Stand",
+    "stop_lat": 16.99168,
+    "stop_lon": 73.28949
+  }
+]

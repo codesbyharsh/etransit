@@ -1,0 +1,240 @@
+/* ------------------------------ */
+/* Global & Sidebar Container     */
+/* ------------------------------ */
+
+.sidebar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(145deg, #ffffff, #e9f3ff);
+  min-height: 100vh;
+}
+
+/* ------------------------------ */
+/* Sidebar Content & Accent       */
+/* ------------------------------ */
+
+.sidebar-content {
+  position: relative; /* Added for absolute positioning inside */
+  width: 280px;
+  background-color: #ffffff;
+  padding: 25px;
+  
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.sidebar-content h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #003366; /* Dark blue */
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* ------------------------------ */
+/* Search Sections & Inputs       */
+/* ------------------------------ */
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-section label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #003366;
+}
+
+.search-section input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-section input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.search-section button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-section button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* ------------------------------ */
+/* Contact Us Button              */
+/* ------------------------------ */
+
+/* Changed to absolute positioning within sidebar-content */
+.contact-us-btn-container {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.contact-btn {
+  background-color: #ffc107; /* Vibrant yellow */
+  color: #003366; /* Dark blue text */
+  border: 2px solid #ffc107;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.contact-btn:hover {
+  background-color: #ffeb99;
+  transform: scale(1.05);
+}
+
+/* ------------------------------ */
+/* Additional Sidebar Styling     */
+/* ------------------------------ */
+
+/* (Example for invalid route items styling, you can adjust as needed) */
+.trip-item.invalid-route {
+  opacity: 0.5;
+  background-color: #ffe6e6;
+}
+
+/* ------------------------------ */
+/* Modal Overlay & Content        */
+/* ------------------------------ */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #333333;
+  transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+  color: #FBBF24; /* Eye-catching yellow on hover */
+}
+
+/* ------------------------------ */
+/* Responsive Design              */
+/* ------------------------------ */
+
+@media (max-width: 768px) {
+  .sidebar-content {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-section input,
+  .search-section button,
+  .contact-btn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
+
+/* ------------------------------ */
+/* Example Container for Testing  */
+/* ------------------------------ */
+
+.test-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+
+
+
+.newdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* space between buttons */
+  margin-top: 50px;
+}
+
+.newdiv button {
+  background-color: #28a745; /* Green color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100%; /* Optional: to give a consistent width */
+  max-width: 200px;
+}
+
+.newdiv button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}

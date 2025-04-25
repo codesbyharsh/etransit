@@ -1,0 +1,229 @@
+.citymap-popup-wrapper {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.citymap-popup-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.citymap-popup-modal {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    width: 95%;
+    margin: 4vh auto;
+    background: rgba(255, 255, 255, 0.97);
+    padding: 2rem;
+    border-radius: 16px;
+    animation: citymapFadeInUp 0.6s ease-out both;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.citymap-popup-exit {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.citymap-popup-exit:hover {
+    color: #FBBF24;
+}
+
+.citymap-popup-title {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+
+.citymap-popup-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.citymap-popup-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.citymap-popup-image-container {
+    flex: 1 1 280px;
+    max-width: 360px;
+    text-align: center;
+}
+
+.citymap-popup-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.citymap-popup-image-container p {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+@keyframes citymapFadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile-friendly tweaks */
+@media (max-width: 600px) {
+    .citymap-popup-modal {
+        padding: 1rem;
+    }
+
+    .citymap-popup-title {
+        font-size: 1.4rem;
+    }
+
+    .citymap-popup-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .citymap-popup-image-container {
+        max-width: 100%;
+    }
+}
+
+.citymap-popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.citymap-download-btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.citymap-download-btn:hover {
+    background-color: #2563eb;
+}
+
+.citymap-extra-content {
+    margin-top: 2rem;
+    background: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    color: #333;
+}
+
+.citymap-extra-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.citymap-extra-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.citymap-extra-content ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.citymap-extra-content ul li::before {
+    content: "•";
+    color: #3b82f6;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.citymap-popup-modal {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    width: 90%;
+    max-height: 90vh;
+    /* Limit modal height */
+    overflow-y: auto;
+    /* Enable scrolling if content overflows */
+    margin: 5% auto;
+    background: rgba(255, 255, 255, 0.97);
+    padding: 2rem;
+    border-radius: 12px;
+    animation: citymapFadeInUp 0.6s ease-out both;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: smooth scroll inside modal */
+.citymap-popup-modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.citymap-popup-modal::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.citymap-popup-modal {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  scroll-behavior: smooth; /* 👈 Smooth scroll */
+  margin: 5% auto;
+  background: rgba(255, 255, 255, 0.97);
+  padding: 2rem;
+  border-radius: 12px;
+  animation: citymapFadeInUp 0.6s ease-out both;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Apply font color*/
+.citymap-popup-modal {
+    font-family: 'Poppins', sans-serif;
+    /* Apply font globally to modal */
+}
+
+.citymap-popup-title {
+    font-weight: 600;
+}
+
+.citymap-popup-subtitle,
+.citymap-popup-image-container p {
+    font-weight: 300;
+}

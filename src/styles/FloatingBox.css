@@ -1,0 +1,64 @@
+/* Container for the floating box */
+.floating-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;  /* Moved from 10px to 100px */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-opaque white */
+    padding: 10px 15px;
+    width: 120px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    z-index: 1100;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Group for each control with reduced spacing */
+  .control-group {
+    margin-bottom: 8px; /* Reduced space between groups */
+  }
+  
+  /* Style for the section title (Map Style) with tighter spacing */
+  .section-title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003366;  /* Custom label color */
+    margin-bottom: 4px; /* Reduced margin */
+  }
+  
+  /* Radio group styling with reduced spacing */
+  .radio-group {
+    margin-bottom: 4px;
+  }
+  
+  /* Label styling */
+  .floating-box label {
+    font-size: 14px;
+    color: #003366;  /* Set label text color */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjust spacing for checkboxes and radios */
+  .floating-box input[type="checkbox"],
+  .floating-box input[type="radio"] {
+    margin-right: 5px; /* Reduced margin */
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .floating-box {
+      padding: 8px 10px;
+      top: 5px;
+      right: 50px;
+      font-size: 13px;
+      width: auto;
+    }
+    .control-group {
+      margin-bottom: 6px;
+    }
+  }
+  

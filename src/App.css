@@ -1,0 +1,121 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+/* Container for sidebar and map side-by-side */
+.main-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Sidebar styling */
+.sidebar-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+  padding: 10px;
+  padding-top: 30px;
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+/* When hidden, shift sidebar out of view */
+.sidebar-hidden {
+  transform: translateX(-100%);
+}
+
+/* Map container styling */
+.map-container {
+  flex: 1;
+  height: 100%;
+  margin-left: 250px; /* When sidebar is visible */
+  transition: margin-left 0.3s ease-in-out;
+}
+
+/* When sidebar is hidden, map takes full width */
+.map-full {
+  margin-left: 0;
+}
+
+/* Floating button to show sidebar */
+.show-sidebar-btn {
+  position: fixed;
+  margin-top: 10px;
+  left: 10px;
+  z-index: 1100;
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Button styling to hide sidebar */
+.hide-sidebar {
+  position: fixed;
+  margin-top: 10px;
+  left: 10px;
+  z-index: 1100;
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.custom-popup {
+  font-size: 16px;
+  max-width: 300px;
+  line-height: 1.4;
+}
+
+/* --------------------- Additional Coloring Rules --------------------- */
+
+/* Color for popup headings (bus info) */
+.custom-popup h5 {
+  color: #e73d00;
+}
+
+/* Sidebar header color */
+.sidebar-content h3 {
+  color: #003366;
+}
+
+/* Sidebar labels color */
+.sidebar-content label {
+  color: #333;
+}
+
+/* Customize sidebar toggle button backgrounds */
+.hide-sidebar,
+.show-sidebar-btn {
+  background-color: #f8f8f8;
+  border-color: #ddd;
+}
+
+/* Optional: Add a subtle background gradient to the map container */
+.map-container {
+  background: linear-gradient(45deg, #e0e0e0, #ffffff);
+}
+
+.sidebar {
+  transition: transform 0.3s ease-in-out;
+}
+

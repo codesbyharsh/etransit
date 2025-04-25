@@ -1,0 +1,10 @@
+/* StaticView.css */
+.static-view {
+    padding: 20px;
+    text-align: center;
+  }
+  .static-view button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

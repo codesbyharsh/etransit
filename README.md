@@ -36,7 +36,7 @@ Displays the live bus tracking, maps, trips, and routes.
 
 ## 📦 Prerequisites
 
-- Static GTFS file: [gtfs.zip](https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip)  
+- Static GTFS file: [gtfs.zip](https://iqskr.github.io/gtfs/gtfs.zip)  
   📘 [GTFS builder guidebook](https://drive.google.com/file/d/1Ddn3vS-hy_EqjV63ZAbLv3hU_ptmHaH5/view?usp=sharing)  
   🛠️ [Download GTFS Builder](https://www.nationalrtap.org/Technology-Tools/GTFS-Builder/Support)
   

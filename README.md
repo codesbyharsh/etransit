@@ -1,13 +1,13 @@
 # 🚀 E-Transit App
 
 **E-Transit** is a web application that shows the **real-time location of buses** in rural areas, built to improve local public transport monitoring.
-## 🎥 Project Demo
 
 ---
 
+## 🎥 Project Demo
+
 - 📽️ [Watch on Google Drive](https://drive.google.com/file/d/19uDU3cl4qMC4hKfbm5RJqk0_YSdruKcg/view)
 - 📥 [Direct Download (if preview fails)](https://drive.google.com/uc?export=download&id=19uDU3cl4qMC4hKfbm5RJqk0_YSdruKcg)
-
 
 ---
 
@@ -30,8 +30,8 @@ Automatically assigns routes/trips based on GPS or schedule data.
 
 ### 3. Frontend (Vite + React)
 
-Displays the live bus tracking, maps, trips, and routes.
-
+Displays the live bus tracking, maps, trips, and routes.  
+- [Watch Preview](https://etransit.vercel.app/)  
 - 💻 This Repository
 
 ---
@@ -43,7 +43,6 @@ Displays the live bus tracking, maps, trips, and routes.
 - `.env` file setup with required credentials
 
 ---
-
 
 ## ⚙️ Tech Stack
 
@@ -61,8 +60,8 @@ Displays the live bus tracking, maps, trips, and routes.
 ### 1. Clone the Repository
 
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/codesbyharsh/etransit.git
+cd etransit
 
 
 2. Install Dependencies
@@ -79,5 +78,12 @@ sample .env file is given in code
 
 4. Run the App
 npm run dev
+
+-- 
+Permission letter from Depo:
+![image](https://github.com/user-attachments/assets/cf10dca3-e4ce-41be-8808-9c1fd49b436f)
+
+Project Indexing:https://drive.google.com/file/d/131C0pQQ7fZ4UR_vPJE_qCh5ajAWEA3CN/view?usp=drive_link
+Project Report:https://drive.google.com/file/d/1lmDNhp74y8IUu1pCdspBQTBchVxxtD-8/view?usp=drive_link
 
 

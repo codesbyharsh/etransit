@@ -55,35 +55,44 @@ Displays the live bus tracking, maps, trips, and routes.
 - 📁 dotenv for environment configuration
 
 ---
-## 🛠️ Setup Instructions (Local Setup for Frontend)
+### 🛠️ Setup Instructions (Local Setup for Frontend)
 
-### 1. Clone the Repository
 
+## 1. Clone the Repository
 ```bash
 git clone https://github.com/codesbyharsh/etransit.git
 cd etransit
+```
 
-
-2. Install Dependencies
+### 2. Install Dependencies
+```bash
 -npm install
 -# or
 -npm i
+```
 
-3. Configure Environment Variables
+### 3. Configure Environment Variables
+```bash
 Create a .env file in the root directory of the project.
 
 Add the required environment variables inside it.
 
 Sample .env file is provided in the code.
+```
 
-4. Run the App
--npm run dev
+### 4. Run the App
+```bash
+npm run dev
+```
+###application will run on:http://localhost:5173/
 
--- 
-Permission letter from Depo:
--![image](https://github.com/user-attachments/assets/cf10dca3-e4ce-41be-8808-9c1fd49b436f)
 
-[Project Indexing](https://drive.google.com/file/d/1ty5MD8WWv5B24UTFKiWzkF5-8bh4q0OM/view?usp=sharing)
-[Project Report](https://drive.google.com/file/d/1WVt7iWaJFpKGrzV-zzfZvOImVxLtwy_i/view?usp=sharing)
+---
+###Permission letter from Depo:
+- ![image](https://github.com/user-attachments/assets/cf10dca3-e4ce-41be-8808-9c1fd49b436f)
+
+---
+- [Project Indexing](https://drive.google.com/file/d/1ty5MD8WWv5B24UTFKiWzkF5-8bh4q0OM/view?usp=sharing)
+- [Project Report](https://drive.google.com/file/d/1WVt7iWaJFpKGrzV-zzfZvOImVxLtwy_i/view?usp=sharing)
 
 

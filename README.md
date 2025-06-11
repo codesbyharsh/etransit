@@ -1,6 +1,13 @@
 # 🚀 E-Transit App
 
 **E-Transit** is a web application that shows the **real-time location of buses** in rural areas, built to improve local public transport monitoring.
+## 🎥 Project Demo
+
+---
+
+- 📽️ [Watch on Google Drive](https://drive.google.com/file/d/19uDU3cl4qMC4hKfbm5RJqk0_YSdruKcg/view)
+- 📥 [Direct Download (if preview fails)](https://drive.google.com/uc?export=download&id=19uDU3cl4qMC4hKfbm5RJqk0_YSdruKcg)
+
 
 ---
 
@@ -37,12 +44,6 @@ Displays the live bus tracking, maps, trips, and routes.
 
 ---
 
-## 🎥 Project Demo
-
-- 📽️ [Watch on Google Drive](https://drive.google.com/file/d/1e3j07jaP3xsjd7TQ2QPoi1Oh0AP37wRa/view)
-- 📥 [Direct Download (if preview fails)](https://drive.google.com/uc?export=download&id=1e3j07jaP3xsjd7TQ2QPoi1Oh0AP37wRa)
-
----
 
 ## ⚙️ Tech Stack
 

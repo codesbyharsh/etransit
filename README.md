@@ -24,7 +24,7 @@ Handles GPS data collection and pushing location to the server.
 ### 2. Dynamic Trip/Route Assigner (Python Backend)
 Automatically assigns routes/trips based on GPS or schedule data.
 
-- 🐍 [Python Assigner Repo](#)
+- 🐍 [Dynamic_trip_assigner](https://github.com/codesbyharsh/dynamic-trip-assigner.git)
 
 ### 3. Frontend (Vite + React)
 Displays the live bus tracking, maps, trips, and routes.

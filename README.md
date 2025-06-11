@@ -86,6 +86,9 @@ npm run dev
 ```
 application will run on:http://localhost:5173/
 
+### 🛠️ Setup Instructions (Hosting)
+host using an vercel
+checkout yt and gpt for it ...it's not much complicated if u upload this readme file to gpt it is easy 
 
 ---
 Permission letter from Depo:

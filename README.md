@@ -61,30 +61,30 @@ Displays the live bus tracking, maps, trips, and routes.
 ### 1. Clone the Repository
 
 
-git clone https://github.com/codesbyharsh/etransit.git
-cd etransit
+-git clone https://github.com/codesbyharsh/etransit.git
+-cd etransit
 
 
 2. Install Dependencies
-npm install
-# or
-npm i
+-npm install
+-# or
+-npm i
 
 
 3. Configure Environment Variables
-Create a .env file in the root directory of the project.
+-Create a .env file in the root directory of the project.
 
-Add the required environment variables inside it. 
-sample .env file is given in code 
+-Add the required environment variables inside it. 
+-sample .env file is given in code 
 
 4. Run the App
-npm run dev
+-npm run dev
 
 -- 
 Permission letter from Depo:
-![image](https://github.com/user-attachments/assets/cf10dca3-e4ce-41be-8808-9c1fd49b436f)
+-![image](https://github.com/user-attachments/assets/cf10dca3-e4ce-41be-8808-9c1fd49b436f)
 
-Project Indexing:https://drive.google.com/file/d/131C0pQQ7fZ4UR_vPJE_qCh5ajAWEA3CN/view?usp=drive_link
-Project Report:https://drive.google.com/file/d/1lmDNhp74y8IUu1pCdspBQTBchVxxtD-8/view?usp=drive_link
+[Project Indexing](https://drive.google.com/file/d/1ty5MD8WWv5B24UTFKiWzkF5-8bh4q0OM/view?usp=sharing)
+[Project Report](https://drive.google.com/file/d/1WVt7iWaJFpKGrzV-zzfZvOImVxLtwy_i/view?usp=sharing)
 
 

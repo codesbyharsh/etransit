@@ -84,12 +84,12 @@ Sample .env file is provided in the code.
 ```bash
 npm run dev
 ```
-###application will run on:http://localhost:5173/
+application will run on:http://localhost:5173/
 
 
 ---
-###Permission letter from Depo:
-- ![image](https://github.com/user-attachments/assets/cf10dca3-e4ce-41be-8808-9c1fd49b436f)
+Permission letter from Depo:
+ ![image](https://github.com/user-attachments/assets/cf10dca3-e4ce-41be-8808-9c1fd49b436f)
 
 ---
 - [Project Indexing](https://drive.google.com/file/d/1ty5MD8WWv5B24UTFKiWzkF5-8bh4q0OM/view?usp=sharing)

@@ -55,14 +55,13 @@ Displays the live bus tracking, maps, trips, and routes.
 - 📁 dotenv for environment configuration
 
 ---
-
 ## 🛠️ Setup Instructions (Local Setup for Frontend)
 
 ### 1. Clone the Repository
 
-
--git clone https://github.com/codesbyharsh/etransit.git
--cd etransit
+```bash
+git clone https://github.com/codesbyharsh/etransit.git
+cd etransit
 
 
 2. Install Dependencies
@@ -70,12 +69,12 @@ Displays the live bus tracking, maps, trips, and routes.
 -# or
 -npm i
 
-
 3. Configure Environment Variables
--Create a .env file in the root directory of the project.
+Create a .env file in the root directory of the project.
 
--Add the required environment variables inside it. 
--sample .env file is given in code 
+Add the required environment variables inside it.
+
+Sample .env file is provided in the code.
 
 4. Run the App
 -npm run dev

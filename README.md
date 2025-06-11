@@ -6,7 +6,7 @@
 
 ## 🎥 Project Demo
 
-- 📽️ [Watch on Google Drive](https://drive.google.com/file/d/19uDU3cl4qMC4hKfbm5RJqk0_YSdruKcg/view)
+- 📽️ [Watch on Google Drive](https://drive.google.com/file/d/19uDU3cl4qMC4hKfbm5RJqk0_YSdruKcg/view)  
 - 📥 [Direct Download (if preview fails)](https://drive.google.com/uc?export=download&id=19uDU3cl4qMC4hKfbm5RJqk0_YSdruKcg)
 
 ---
@@ -16,41 +16,42 @@
 This app runs using three main components:
 
 ### 1. GPS Device Tracking System (MERN Stack)
-
 Handles GPS data collection and pushing location to the server.
 
-- 📦 [Frontend Repo](#) *(add your link here)*
-- ⚙️ [Backend Repo](#) *(add your link here)*
+- 📦 [Frontend Repo](#)  
+- ⚙️ [Backend Repo](#)  
 
 ### 2. Dynamic Trip/Route Assigner (Python Backend)
-
 Automatically assigns routes/trips based on GPS or schedule data.
 
-- 🐍 [Python Assigner Repo](#) *(add your link here)*
+- 🐍 [Python Assigner Repo](#)
 
 ### 3. Frontend (Vite + React)
+Displays the live bus tracking, maps, trips, and routes.
 
-Displays the live bus tracking, maps, trips, and routes.  
-- [Watch Preview](https://etransit.vercel.app/)  
+- 🌐 [Watch Preview](https://etransit.vercel.app/)  
 - 💻 This Repository
 
 ---
 
 ## 📦 Prerequisites
 
-- Static GTFS files
-- Node.js and npm installed
+- Static GTFS file: [gtfs.zip](https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip)  
+  📘 [GTFS builder guidebook](https://drive.google.com/file/d/1Ddn3vS-hy_EqjV63ZAbLv3hU_ptmHaH5/view?usp=sharing)  
+  🛠️ [Download GTFS Builder](https://www.nationalrtap.org/Technology-Tools/GTFS-Builder/Support)
+  
+- Node.js and npm installed  
 - `.env` file setup with required credentials
 
 ---
 
 ## ⚙️ Tech Stack
 
-- 🧠 React
-- ⚡ Vite
-- 📦 npm
-- 🌐 JavaScript (ES6+)
-- 🧭 Leaflet for Maps
+- 🧠 React  
+- ⚡ Vite  
+- 📦 npm  
+- 🌐 JavaScript (ES6+)  
+- 🧭 Leaflet for Maps  
 - 📁 dotenv for environment configuration
 
 ---

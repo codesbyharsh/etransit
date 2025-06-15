@@ -39,6 +39,8 @@ Displays the live bus tracking, maps, trips, and routes.
 
 - 🌐 [Watch Preview](https://etransit.vercel.app/)  
 - 💻 This Repository
+- for the "map & shedule" button refer this [repo](https://github.com/codesbyharsh/skrnew/tree/master)
+- [demo](https://new-intigration.onrender.com/)
 
 ---
 
